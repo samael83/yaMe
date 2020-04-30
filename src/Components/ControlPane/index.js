@@ -1,0 +1,1 @@
+export { ControlPane as default } from './ControlPane';
