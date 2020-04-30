@@ -1,0 +1,43 @@
+.preview {
+    font-size: 80%;
+    height: 90%;
+    width: 90%;
+
+    img {
+        max-width: 100%;
+    }
+
+    pre {
+        //background-color: lightslategrey;
+        background-color: #1B2631;
+        padding: 10px;
+        border-radius: 3px;
+        
+        > code {
+            color: lightslategrey;
+
+            .token.string {
+                color: green;
+            }
+
+            .token.function {
+                color: violet;
+            }
+
+            .token.keyword {
+                color: salmon;
+            }
+
+            .token.operator {
+                color: red;
+            }
+        }
+    }
+
+    p > code {
+        background-color: #1B2631;
+        padding: 2px 4px;
+        color: white;
+        border-radius: 2px;
+    }
+}
