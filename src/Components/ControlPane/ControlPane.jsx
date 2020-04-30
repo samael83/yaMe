@@ -25,7 +25,7 @@ export const ControlPane = () => {
             */}
 
             <IconContext.Provider value={{ color: "#ffffff", className: "icons-btns", size: "2em" }}>
-                <a title="Visit repo" href="https://www.link.to.github.repo" target="_blank">
+                <a title="Visit repo" href="https://github.com/samael83/yaMe" target="_blank" rel="noopener noreferrer">
                     <IconsButtons.AiFillGithub />
                 </a>
             </IconContext.Provider>
